@@ -1,0 +1,11 @@
+What is a file system?
+The way files are named or placed logically for storage and retrieval 
+
+What are inodes?
+it is like a database of all file information except the file contents and the file name.
+
+What are disk partitions?
+They are logical containers which are usually used to house filesystems, where operating systems, applications, and data are installed on. A single partition may span the entirety of a physical storage device.
+
+What are journaling file systems?
+A journaling file system is a fault-resilient file system in which data integrity is ensured because updates to directories and bitmaps are constantly written to a serial log on disk before the original disk log is updated
