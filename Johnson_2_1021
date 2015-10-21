@@ -1,0 +1,6 @@
+What is data carving?
+Data carving is a technique to help you recover data. It allows for users to recover data with no file system allocation information to be extracted by identifying clusters and sectors belonging to the file. 
+How is it done? 
+Data carving is done on a disk when the unallocated filesystem space is analyzed to extract files because data cannot be identified due to missing of allocation info, or on network captures where files are "carved" from the dumped traffic using the same techniques. 
+How does it relate to what we were doing yesterday?
+It relates because we were working on trying to find files and the byte locations
