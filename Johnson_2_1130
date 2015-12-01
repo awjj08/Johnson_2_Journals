@@ -7,7 +7,8 @@ It is used for Hex File Headers and Regex for Forensics.
 What information BE SPECIFIC do you need to recover:
 
 an Excel document?
-
+.xls file extension
 a Word document?
-
+.docs file extension
 a ZIP file?
+.zip extension
