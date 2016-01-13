@@ -1,0 +1,16 @@
+Type fls by itself
+Command gives other commands for inputting 
+mmls -i ewf nps-2008-jean.E01
+Why did we type ewf What is ewf?
+Export Witness Format, allows for obtaining of media
+fls -i ewf -o 63 nps-2008-jean.E01
+What is a body file?
+fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 >> bodyfile.txt
+cat bodyfile.txt
+What is in the bodyfile.txt? What can you tell from the file?
+What does -r do?
+What does -m do?
+mactime -b bodyfile.txt > mactimeout.csv
+Open the file mactimeout.csv with librecalc
+fls -r -F "/" -i ewf -o 63 nps-2008-jean.E01 |grep .xls
+icat -o 63 fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 32712> example.xls
