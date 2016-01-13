@@ -3,13 +3,14 @@ it says, "Error stat(ing) image file (raw_open: image "newfloppy.img" - No such 
 mmls -t dos manypartitions3.disk
 It shows a Data partition table 
 How is it diferent than newfloppy.img?
-
+newfloppy.img had an error stat(ing) the image file
 What is the first column?
 the first column contains the meta slot which is the primary table 
 What might the slot value be?
 The slot value is 1
 mmls -t list
 What are raw, aff, afd, afm, afflib, ewf, and split with regards to digital forensics?
+
 Using manypartitions3.disk
 mmls manypartitions3.disk
 mmls -a manypartitions3.disk
