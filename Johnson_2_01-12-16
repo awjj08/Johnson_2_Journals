@@ -8,14 +8,17 @@ Export Witness Format, allows for obtaining of media
 fls -i ewf -o 63 nps-2008-jean.E01
 What is a body file?
 The body file is an intermediate file when creating a timeline of file activity. It is a pipe ("|") delimited text file that contains one line for each file (or other even type, such as a log or registry key).
-fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 >> bodyfile.txt
-
+fls -r -m "/" -i ewf -o 63 nps-2008-jean.dd >> bodyfile.txt
+Creates bodyfile
 cat bodyfile.txt
-
+shows us what's inside of file
 What is in the bodyfile.txt? What can you tell from the file?
-
+accessed files 
 What does -r do?
+Recurse on directory entries
 What does -m do?
+Display output in mactime input format with
+	      dir/ as the actual mount point of the image
 mactime -b bodyfile.txt > mactimeout.csv
 Open the file mactimeout.csv with librecalc
 fls -r -F "/" -i ewf -o 63 nps-2008-jean.E01 |grep .xls
