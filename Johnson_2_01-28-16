@@ -1,9 +1,10 @@
  What is a pst file? What is it good for?
 an open proprietary file format used to store copies of messages, calendar events, and other items within Microsoft software such as Microsoft Exchange Client, Windows Messaging, and Microsoft Outlook.
 Use man pffinfo and man pffexport
-
 What do these programs do? How might they be used in digital forensics?
-All my command line accumulated was a "no manual entry for etc." 
+pffinfo- determines information about a personal folder file, this might be used when you need to find info into a certain personal file of people.
+pffexport- exports items stored in a Personal Folder File, this might be used to take certain needed files out of personal folders
 Use man mairix and man grepmail
 What do these two programs do? How might you use them?
-same as above answer
+mairix- indexes and searches mail folders, this might be used to find what files you need 
+grepmail- searches mailboxes for mail matching a regular expression, this might be used to find very specific files for a case
