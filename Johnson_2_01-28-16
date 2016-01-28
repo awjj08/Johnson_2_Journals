@@ -1,0 +1,9 @@
+ What is a pst file? What is it good for?
+an open proprietary file format used to store copies of messages, calendar events, and other items within Microsoft software such as Microsoft Exchange Client, Windows Messaging, and Microsoft Outlook.
+Use man pffinfo and man pffexport
+
+What do these programs do? How might they be used in digital forensics?
+All my command line accumulated was a "no manual entry for etc." 
+Use man mairix and man grepmail
+What do these two programs do? How might you use them?
+same as above answer
