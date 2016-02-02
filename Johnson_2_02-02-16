@@ -1,0 +1,23 @@
+    Copy the internet header from message 207
+Return-Path: <simsong@xy.dreamhostps.com>
+X-Original-To: jean@m57.biz
+Delivered-To: x2789967@spunkymail-mx8.g.dreamhost.com
+Received: from smarty.dreamhost.com (sd-green-bigip-81.dreamhost.com [208.97.132.81])
+	by spunkymail-mx8.g.dreamhost.com (Postfix) with ESMTP id E32634D80F
+	for <jean@m57.biz>; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+Received: from xy.dreamhostps.com (apache2-xy.xy.dreamhostps.com [208.97.188.9])
+	by smarty.dreamhost.com (Postfix) with ESMTP id 6E408EE23D
+	for <jean@m57.biz>; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+Received: by xy.dreamhostps.com (Postfix, from userid 558838)
+	id 64C683B1DAE; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+To: jean@m57.biz
+From: alison@m57.biz
+subject: background checks
+Message-Id: <20080719233957.64C683B1DAE@xy.dreamhostps.com>
+Date: Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+    What are the parts?
+
+    What incongruities?
+the file being delivered to x2789967@spunkymail-mx8.g.dreamhost.com
+    Why are internet headers important for forensics investigators?
+They show the intended sending place and the place the file/email actually went
