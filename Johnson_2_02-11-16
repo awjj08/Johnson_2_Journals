@@ -1,0 +1,3 @@
+How and why might you capture network data for forensic purposes?
+The most reliable way to sniff traffic is to use a network tap. A network tap is a “bump-in-the-wire” device designed only to copy traffic passing through it to a monitor port. You typically insert a network tap inline between two nodes in a network, such as between your firewall and your first switch.
+You might be able to find different sites that are being used most frequently, or find different locations based on ip address.
