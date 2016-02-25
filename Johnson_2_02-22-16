@@ -24,12 +24,7 @@ Change the 25 to 10 and then to 100 - what changed?
 Enter the code: nmap -F 10.4.27.1-29
 
 What did you see?
-Nmap scan report for 10.4.27.1(-27)
-Host is up (0.013s latency).
-Not shown: 98 closed ports
-PORT    STATE SERVICE
-22/tcp  open  ssh
-111/tcp open  rpcbind
+Nmap scan report for all of the 10.4.27.1(-27) IP adresses
 (and the corresponding data for the specific scan)
 How might this be useful in a digital forensics investigation?
 It shows the data for a certain place and all of the things that it went through
@@ -38,9 +33,10 @@ Scan the subnet to identify the various OSes
 What is an OS?
 Operating System
 Why would you scan the network for different OSes?
-To find out the 
+To find out the different sites and things that are happening inside of a certain OS
 -o is used for OS scans
 What command did you use to scan d22 for different OSes?
+
 What is the address of the printer?
 What is the address of the switch?
 
