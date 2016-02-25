@@ -1,0 +1,24 @@
+How do you list wireless devices in linux?
+
+2. In your VM do- "apt-get install kismet"
+man kismet
+What is kismet for?
+Kismet is an 802.11 layer2 wireless network detector, sniffer, and intrusion detection system.
+3. Kismet must be configured. It will log packets. We must configure kismet to not log packets. Why?
+So any uneeded data won't be stored
+4. Under what specific circumstances might one use kismet to log packets?
+Incase you needed to store certain files or data
+5. Look up war-driving. What is it?
+searching for Wi-Fi wireless networks by a person in a moving vehicle, using a portable computer, smartphone or personal digital assistant (PDA).
+6. What is the diffrence between war-driving and piggy-backing?
+Piggy-Backing is Gaining access to a restricted communications channel by using the session another user already established.
+War-driving is searching for wireless networks
+7. Which poses a grater security risk? Why?
+war-driving, if you find a wireless network and hack into it, then you can find out a lot of personal data, while staying relatively hidden inside of a moving vehicle.
+8. How might kismet be used to improve wireless security?
+Kismet's intrusion detection system would allow you to find outside IP adresses that waere trying to get into the Network.
+9. With regards to arp poisioning?
+a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network.
+10. What is wigle.net? What software is used to contribute?
+a network, cell tower, observation, and stumblers detecting site
+11. What is the purpose of wigle.net?
