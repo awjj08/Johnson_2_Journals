@@ -1,0 +1,13 @@
+    What are the attacks described in the Browning and Kessler document? [Briefly describe what each does]
+Bluebugging: An extraordinarily powerful attack mechanism, bluebugging allows an attacker to take control of a victim's phone using the AT command parser. 
+Bluejacking: The sending of unsolicited messages to open Bluetooth devices by sending a vCard with a message in the name field and exploiting the OBEX protocol 
+Bluesmack: A Bluetooth analog of the Ping-of-Death denial-of-service attack. This is a buffer overflow attack using L2CAP echo messages 
+Bluesnarf and Bluesnarf++: Attacks allowing for the theft of information from a Bluetooth device using the OBEX Push Profile
+Helomoto: Helomoto is functionally similar to the Bluebug attack but takes advantage of poor implementations of "trusted device" handling on some phones.
+    Then -- after looking at the document here
+    Imagine you are an investigator. There is some suspicious traffic on the network.Describe what is happening?
+    You determine that the network was compromised via Bluetooth. How did you determine this?
+    What do you suspect happened and why?
+    How might you prove this? [Describe specific tools and approaches.
+    How will you prevent your network in future from bluetooth attacks?
+
